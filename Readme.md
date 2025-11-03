@@ -43,7 +43,7 @@ The app includes secure login, JWT authentication, and an aesthetic UI.
 ---
 
 ## Project Structure
-
+```bash
 sweet-shop/
 │
 ├── backend/
@@ -63,7 +63,7 @@ sweet-shop/
 │ └── public/
 │
 └── README.md
-
+```
 
 ---
 
@@ -114,31 +114,31 @@ Using AI significantly **enhanced my productivity and learning** throughout this
 - However, I made sure to **review and test every AI suggestion** to ensure correctness and understanding.
   
 Overall, AI acted as a **collaborative assistant**, not a replacement — helping me focus more on project logic, architecture, and creativity.
-
 ---
-
-## Setup & Run Instructions
-
 ### Backend (Django)
-
 ```bash
 cd backend
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py runserver
-
-Frontend (React)
-
+```
+---
+### Frontend (React)
+```bash
 cd frontend
 npm install
 npm start
 
+```
+---
 
-Access
+### Screenshots:-
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/fa0c85de-4407-471d-a072-8e000bd6f410" />
+<img width="400" height="400" alt="Screenshot 2025-11-03 221611" src="https://github.com/user-attachments/assets/c0d8e710-9cd9-40b0-b75f-162665c7836e" />
+<img width="400" height="400" alt="Screenshot 2025-11-03 064040" src="https://github.com/user-attachments/assets/1600c159-72a0-4e10-9a42-d249dda303be" />
+<img width="400" height="400" alt="Screenshot 2025-11-03 064147" src="https://github.com/user-attachments/assets/4667fa21-38c6-4e31-9fa9-736d2dcdc5e9" />
+<img width="400" height="400" alt="Screenshot 2025-11-03 080657" src="https://github.com/user-attachments/assets/f42f8585-36ef-4534-865c-0be1806c1770" />
 
-Visit:
-Frontend: http://localhost:3000
-Backend API: http://127.0.0.1:8000
 
-Screenshots:-
+
