@@ -78,16 +78,6 @@ def purchase_sweet(request, id):
         return Response({"message": "Sweet purchased successfully"})
     except Sweet.DoesNotExist:
         return Response({"detail": "Sweet not found"}, status=404)
-# def purchase_sweet(request, id):
-#     try:
-#         sweet = Sweet.objects.get(id=id)
-#         if sweet.quantity <= 0:
-#             return Response({"error": "Out of stock"}, status=400)
-#         sweet.quantity -= 1
-#         sweet.save()
-#         return Response({"message": f"Purchased {sweet.name}", "remaining": sweet.quantity})
-#     except Sweet.DoesNotExist:
-#         return Response({"error": "Sweet not found"}, status=404)
 
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
