@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ffb3c6, #ffccd5, #ffd6e0);
+  overflow-x: hidden;
+}
+
+.dashboard {
+  padding: 40px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  color: #d63384;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.logout-btn {
+  background: linear-gradient(to right, #ff5c8a, #ff3385);
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.logout-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(255, 92, 138, 0.4);
+}
+
+.sweet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.sweet-card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 6px 15px rgba(255, 105, 135, 0.2);
+  transition: 0.3s ease;
+}
+
+.sweet-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 92, 138, 0.3);
+}
+
+.sweet-card h2 {
+  color: #e63973;
+  margin-bottom: 10px;
+}
+
+.no-sweets {
+  color: #444;
+  font-size: 1.1rem;
+  margin-top: 50px;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 1.3rem;
+  color: #d63384;
+}
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.error-page p {
+  color: #ff4d6d;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.error-page button {
+  background: linear-gradient(to right, #ff5c8a, #ff3385);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
